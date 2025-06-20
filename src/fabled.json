@@ -57,18 +57,18 @@
     "setup": false,
     "name": "Fiddler",
     "team": "fabled",
-    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
+    "ability": "Once per game, the Monster secretly chooses an opposing player: all players choose which of these 2 players win."
   },
   {
     "id": "toymaker",
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "If it is a night when a Demon attack could end the game, and the Demon is marked “Final night: No Attack,” then the Demon does not act tonight. (Do not wake them.)",
+    "otherNightReminder": "If it is a night when a Monster attack could end the game, and the Monster is marked “Final night: No Attack,” then the Monster does not act tonight. (Do not wake them.)",
     "reminders": ["Final Night: No Attack"],
     "setup": false,
     "name": "Toymaker",
     "team": "fabled",
-    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    "ability": "The Monster may choose not to attack & must do this at least once per game. Evil players get normal starting info."
   },
   {
     "id": "fibbin",

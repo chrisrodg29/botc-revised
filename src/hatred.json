@@ -22,7 +22,7 @@
     "hatred": [
       {
         "id": "Mathematician",
-        "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
+        "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Monster attacked."
       }
     ]
   },
@@ -151,7 +151,7 @@
     "hatred": [
       {
         "id": "Magician",
-        "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."
+        "reason": "When the Spy sees the Grimoire, the Monster and Magician's character tokens are removed."
       },
       {
         "id": "Alchemist",
@@ -176,7 +176,7 @@
     "hatred": [
       {
         "id": "Magician",
-        "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed."
+        "reason": "When the Widow sees the Grimoire, the Monster and Magician's character tokens are removed."
       },
       {
         "id": "Poppy Grower",
@@ -219,15 +219,15 @@
     "hatred": [
       {
         "id": "Lil' Monsta",
-        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
+        "reason": "The Marionette neighbors a Minion, not the Monster. The Marionette is not woken to choose who takes the Lil' Monsta token."
       },
       {
         "id": "Poppy Grower",
-        "reason": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
+        "reason": "When the Poppy Grower dies, the Monster learns the Marionette but the Marionette learns nothing."
       },
       {
         "id": "Snitch",
-        "reason": "The Marionette does not learn 3 not in-play characters. The Demon learns an extra 3 instead."
+        "reason": "The Marionette does not learn 3 not in-play characters. The Monster learns an extra 3 instead."
       },
       {
         "id": "Balloonist",

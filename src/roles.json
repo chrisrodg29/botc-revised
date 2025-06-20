@@ -69,16 +69,16 @@
   },
   {
     "id": "fortuneteller",
-    "name": "Fortune Teller",
+    "name": "Monoculist",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 38,
-    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
+    "firstNightReminder": "The Monoculist points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Monster. ",
     "otherNight": 54,
-    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "otherNightReminder": "The Monoculist points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Monster.",
     "reminders": ["Red herring"],
     "setup": false,
-    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    "ability": "Each night, choose 2 players: you learn if either is a Monster. There is a good player that registers as a Monster to you."
   },
   {
     "id": "undertaker",
@@ -104,7 +104,7 @@
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": ["Protected"],
     "setup": false,
-    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Monster tonight."
   },
   {
     "id": "ravenkeeper",
@@ -143,7 +143,7 @@
     "otherNightReminder": "",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Monster, they die."
   },
   {
     "id": "soldier",
@@ -156,7 +156,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You are safe from the Demon."
+    "ability": "You are safe from the Monster."
   },
   {
     "id": "mayor",
@@ -209,7 +209,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You might register as evil & as a Minion or Demon, even if dead."
+    "ability": "You might register as evil & as a Minion or Monster, even if dead."
   },
   {
     "id": "saint",
@@ -258,10 +258,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
-    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
-    "reminders": ["Demon"],
+    "otherNightReminder": "If the Scarlet Woman became the Monster today: Show the 'You are' card, then the Monster token.",
+    "reminders": ["Monster"],
     "setup": false,
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don\u2019t count)"
+    "ability": "If there are 5 or more players alive & the Monster dies, you become the Monster. (Travellers don\u2019t count)"
   },
   {
     "id": "baron",
@@ -362,10 +362,10 @@
     "firstNight": 40,
     "firstNightReminder": "Show the marked character token. Point to the marked player.",
     "otherNight": 51,
-    "otherNightReminder": "If the Grandmother\u2019s grandchild was killed by the Demon tonight: The Grandmother dies.",
+    "otherNightReminder": "If the Grandmother\u2019s grandchild was killed by the Monster tonight: The Grandmother dies.",
     "reminders": ["Grandchild"],
     "setup": false,
-    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too."
+    "ability": "You start knowing a good player & their character. If the Monster kills them, you die too."
   },
   {
     "id": "sailor",
@@ -401,10 +401,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 21,
-    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
+    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Monster: Wake the Monster. Show the Exorcist token. Point to the Exorcist. The Monster does not act tonight.",
     "reminders": ["Chosen"],
     "setup": false,
-    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight."
+    "ability": "Each night*, choose a player (different to last night): the Monster, if chosen, learns who you are then doesn't wake tonight."
   },
   {
     "id": "innkeeper",
@@ -573,14 +573,14 @@
     "edition": "bmr",
     "team": "outsider",
     "firstNight": 8,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon\u2019s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Monster that would wake tonight: Allow the Lunatic to do the Monster actions. Place their 'attack' markers. Wake the Monster. Show the Monster\u2019s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real Monster each marked player. Remove any Lunatic 'attack' markers.",
     "otherNight": 20,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Monster. Place their 'attack' markers. If the Lunatic selected players: Wake the Monster. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": ["Attack 1",
         "Attack 2",
         "Attack 3"],
     "setup": false,
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night."
+    "ability": "You think you are a Monster, but you are not. The Monster knows who you are & who you choose at night."
   },
   {
     "id": "godfather",
@@ -634,7 +634,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses."
+    "ability": "If the Monster dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses."
   },
   {
     "id": "zombuul",
@@ -764,12 +764,12 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 41,
-    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
+    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Monster to closest Minion.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion."
+    "ability": "You start knowing how many steps from the Monster to its nearest Minion."
   },
   {
     "id": "dreamer",
@@ -790,12 +790,12 @@
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Monster: swap the Monster and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "otherNight": 11,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Monster: swap the Monster and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": ["Poisoned"],
     "setup": false,
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
+    "ability": "Each night, choose an alive player: a chosen Monster swaps characters & alignments with you & is then poisoned."
   },
   {
     "id": "mathematician",
@@ -818,11 +818,11 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 57,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
-    "reminders": ["Demon voted",
-        "Demon not voted"],
+    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Monster voted today. Place the 'Monster not voted' marker (remove 'Monster voted', if any).",
+    "reminders": ["Monster voted",
+        "Monster not voted"],
     "setup": false,
-    "ability": "Each night*, you learn if a Demon voted today."
+    "ability": "Each night*, you learn if a Monster voted today."
   },
   {
     "id": "towncrier",
@@ -925,10 +925,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 42,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "If the Sage was killed by a Monster: Point to two players, one of which is that Monster.",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+    "ability": "If the Monster kills you, you learn that it is 1 of 2 players."
   },
   {
     "id": "mutant",
@@ -964,10 +964,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+    "otherNightReminder": "If the Barber died today: Wake the Monster. Show the 'This character selected you' card, then Barber token. The Monster either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
     "reminders": ["Haircuts tonight"],
     "setup": false,
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+    "ability": "If you died today or tonight, the Monster may choose 2 players (not another Monster) to swap characters."
   },
   {
     "id": "klutz",
@@ -1032,7 +1032,7 @@
     "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary."
+    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Monster is made, deaths tonight are arbitrary."
   },
   {
     "id": "fanggu",
@@ -1229,12 +1229,12 @@
     "edition": "",
     "team": "townsfolk",
     "firstNight": 10,
-    "firstNightReminder": "Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.",
+    "firstNightReminder": "Wake the Monster, show them the 'This character selected you' card, show the King token and point to the King player.",
     "otherNight": 63,
     "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
+    "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Monster knows who you are."
   },
   {
     "id": "balloonist",
@@ -1248,7 +1248,7 @@
     "reminders": ["Seen Townsfolk",
         "Seen Outsider",
         "Seen Minion",
-        "Seen Demon",
+        "Seen Monster",
         "Seen Traveller"],
     "setup": true,
     "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]"
@@ -1311,12 +1311,12 @@
     "edition": "",
     "team": "townsfolk",
     "firstNight": 13,
-    "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
+    "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Monster or points to the relevant number of Minions. If the Engineer chose characters, replace the Monster or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
     "otherNight": 5,
-    "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
+    "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Monster or points to the relevant number of Minions. If the Engineer chose characters, replace the Monster or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "Once per game, at night, choose which Minions or which Demon is in play."
+    "ability": "Once per game, at night, choose which Minions or which Monster is in play."
   },
   {
     "id": "fisherman",
@@ -1382,7 +1382,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
+    "ability": "The Monster thinks you are a Minion. Minions think you are a Monster."
   },
   {
     "id": "choirboy",
@@ -1392,10 +1392,10 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 44,
-    "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
+    "otherNightReminder": "If the King was killed by the Monster, wake the Choirboy and point to the Monster player.",
     "reminders": [],
     "setup": true,
-    "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]"
+    "ability": "If the Monster kills the King, you learn which player is the Monster. [+ the King]"
   },
   {
     "id": "poppygrower",
@@ -1403,12 +1403,12 @@
     "edition": "",
     "team": "townsfolk",
     "firstNight": 4,
-    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "firstNightReminder": "Do not inform the Monster/Minions who each other are",
     "otherNight": 3,
-    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
+    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Monster who each other are.",
     "reminders": ["Evil wakes"],
     "setup": false,
-    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
+    "ability": "Minions & Monsters do not know each other. If you die, they learn who each other are that night."
   },
   {
     "id": "atheist",
@@ -1443,7 +1443,7 @@
     "edition": "",
     "team": "outsider",
     "firstNight": 7,
-    "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.",
+    "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Monster.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1475,7 +1475,7 @@
     "reminders": ["Drunk",
         "Guess used"],
     "setup": false,
-    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
+    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Monster player, but guess wrong & get false info."
   },
   {
     "id": "heretic",
@@ -1514,7 +1514,7 @@
     "otherNightReminder": "",
     "reminders": ["Can not nominate"],
     "setup": false,
-    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die."
+    "ability": "You may only nominate once per game. When you do, if the nominee is not the Monster, they die."
   },
   {
     "id": "politician",
@@ -1616,13 +1616,13 @@
     "edition": "",
     "team": "minion",
     "firstNight": 12,
-    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "firstNightReminder": "Select one of the good players next to the Monster and place the Is the Marionette reminder token. Wake the Monster and show them the Marionette.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": ["Is the Marionette"],
     "setup": true,
-    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]"
+    "ability": "You think you are a good character but you are not. The Monster knows who you are. [You neighbour the Monster]"
   },
   {
     "id": "boomdandy",
@@ -1647,10 +1647,10 @@
     "otherNight": 35,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
-    "remindersGlobal": ["Is the Demon",
+    "remindersGlobal": ["Is the Monster",
         "Dead"],
     "setup": true,
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]"
+    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Monster\". A player dies each night*. [+1 Minion]"
   },
   {
     "id": "lleech",

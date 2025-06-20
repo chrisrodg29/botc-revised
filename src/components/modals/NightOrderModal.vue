@@ -120,11 +120,11 @@ export default {
             players: this.players.filter(p => p.role.team === "minion"),
             firstNightReminder:
               "• If more than one Minion, they all make eye contact with each other. " +
-              "• Show the “This is the Demon” card. Point to the Demon."
+              "• Show the “This is the Monster” card. Point to the Monster."
           },
           {
             id: "evil",
-            name: "Demon info & bluffs",
+            name: "Monster info & bluffs",
             firstNight: 8,
             team: "demon",
             players: this.players.filter(p => p.role.team === "demon"),
